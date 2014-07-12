@@ -1,0 +1,439 @@
+﻿
+#ds-logo
+{
+    
+    height:1100px;
+    width:100%;
+    text-align:center;
+   
+   
+}
+#sMessage
+{
+    display:none;
+}
+body
+{
+    width:720px;
+    margin-left:24px;
+    margin-right:24px;
+    height:100%;
+    padding:0;
+    
+}
+
+.spnPoints
+{
+    font-size:200px;
+    color:Black;
+    font-family:Impact; 
+    text-align:center;
+}
+.pointsFont
+{
+    font-family: "Slate Pro",Slate,"Myriad Pro","BBAlpha Sans",Helvetica;
+}
+#badgeDivDesc
+{
+    
+    overflow:scroll;
+    height:150px;
+}
+
+#badgeDesc
+{
+   
+     
+}
+#badge
+{
+   
+    min-height:150px;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+.smallFont
+{
+    font-size:40px;
+}
+#divRegister, #ds-divRules, #divSettings, #ds-TrainingRoom,
+#ds-MyProfile,#ds-MyMilestones,#ds-MyTrainingHistory,#ds-About,#ds-badgePage, #ds-Showtime,
+#ds-purchase,#ds-alert
+{
+     background-image:url('../images/background-cam1.png');
+     background-repeat:repeat;
+     font-family:Verdana;
+     overflow:hidden;
+}
+#divMainlogo
+{
+     background-image:url('../images/background-cam.png');
+     background-repeat:repeat;
+    font-family: "Slate Pro",Slate,"Myriad Pro","BBAlpha Sans",Helvetica;
+}
+.ds-bottom
+{
+    width:100%;
+    position:absolute;
+    bottom:0;
+}
+.alertLogo
+{
+     background-image:url('../img/snap.png');
+    background-repeat:no-repeat;
+    background-position:center center;
+    width:100%;
+    height:500px;
+}
+.OpaqueDiv
+{
+   /* position:fixed;
+     top:0px;
+     left:0;
+    opacity:0.5;
+    background-color:Black;
+    width:100%;
+    height:1140px; */
+}
+.OpaqueDivOverlay
+{
+    /* Fallback for web browsers that doesn't support RGBa */
+
+	background: rgb(0, 0, 0);
+
+/* RGBa with 0.6 opacity */
+	background: rgba(0, 0, 0, 0.6);
+    width:100%;
+    min-height:1140px;
+    
+    position:absolute;
+    
+    top:120px;
+    color:#D8D086;
+}
+.congratsLogo
+{
+    background-image:url('../img/Congratulations.png');
+    background-repeat:no-repeat;
+    background-position:center center;
+    width:100%;
+    height:100px;
+}
+#ds-Congrats1,#ds-Congrats2
+{
+    background-color: #D9D187;
+   
+}
+#divSettings
+{
+    background-color: #252525;color:white;
+}
+#myPoints2,#myPoints
+{
+    font-family:Impact;
+    font-weight:bold;
+    color:Black;
+}
+#myPoints
+{
+    font-family:Verdana;
+    font-size:60px;
+    color:White; 
+}
+#CLOCK
+{
+    font-size:70px;
+    color:Black;
+    font-family:Arial;
+}
+.dsHeader
+{
+    width:100%;
+    min-height:95px;
+    
+    text-align:left;
+    text-indent:10px;
+    font-family:Impact;
+    font-size:50px;
+    padding-top:30px;
+    color:#ffffff;
+    background-color:#2D2D2D;
+   z-index:60; position:fixed;
+   top:0;
+   left:0;
+ 
+
+}
+.floatDivBottom2
+{
+    font-family: "Slate Pro",Slate,"Myriad Pro","BBAlpha Sans",Helvetica;
+    font-size: 12pt;
+    background: rgba(0,0,0,0.6);
+    border-style:none;
+     color: #ffffff;
+   right:0px;
+	left:0px;
+    width:100%; 
+    position:fixed; 
+    bottom:0; 
+    margin-bottom:140px; 
+    z-index:5; 
+    float:left;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.floatDivBottom
+{
+    font-family: "Slate Pro",Slate,"Myriad Pro","BBAlpha Sans",Helvetica;
+    font-size: 12pt;
+	right:0px;
+	left:0px;
+     background: rgba(74,90,64,0.8);
+    border-style:none;
+     color: #ffffff;
+    height: 220px; 
+    width:100%; 
+    position:fixed; 
+    bottom:0; 
+    margin-bottom:140px; 
+    z-index:5; 
+    float:left;
+    padding-top:20px;
+}
+.marquee
+{
+ overflow: auto;
+white-space: nowrap; 
+overflow-style: marquee;
+marquee-style: slide;
+marquee-loop: infinite;
+overflow-x: -webkit-marquee;
+-webkit-marquee: backwards medium infinite scroll medium;
+}
+.regPane1
+{
+    float:left;
+    width:30%;
+    padding-right:10px;
+    
+}
+.regPane2
+{
+     float:left;
+    width:65%;
+    text-align:justify;
+    font-size: 25pt;
+   
+}
+.floatLeft
+{
+    float:left;
+    width:100%;
+ 
+}
+.errorTxt
+{
+    color:Red;
+    font-weight:bold;
+    padding-bottom:10px;
+}
+.indentLeft
+{
+    
+}
+.txtWidth
+{
+    width:400px;
+     
+}
+.ds-center
+{
+    
+   height:231px;
+    width:100%;
+    text-align:center;
+     background-position:center center;
+    background-repeat:no-repeat;
+}
+.ds-icon
+{
+    background-image:url('../img/ds-icon.png');
+   
+    text-align:right;
+    color:#4A5A40;
+}
+#setRule1
+{
+   
+    height:800px;
+   
+    
+  
+  
+    overflow:scroll;
+    padding-left:30px;
+   
+}
+.titleDrill
+{
+    color:White;
+    font-weight:bold;
+}
+.up
+{
+    color:#00AFF0;
+    font-weight:bold;
+}
+.down
+{
+    color:Red;
+     font-weight:bold;
+}
+.cell {
+			line-height: 100px;
+			height: 100px;
+			vertical-align: middle;
+			 
+}
+.first {
+    width: 350px;
+}
+#setList2
+{
+    margin-top:125px;  
+}
+.ds-backColor, #setList1, #setList2,#setList3,#setRule1
+{
+    background-color:#4A5A40;
+     color:#ffffff;
+    font-family: "Slate Pro",Slate,"Myriad Pro","BBAlpha Sans",Helvetica;
+}
+.name
+{
+    font-weight:bold;
+    font-family:Top Secret Without Lines;
+}
+.loading
+{
+  
+    width:100%;
+    
+    background-color:#4A5A40;
+    float:left;
+   position:absolute;
+    height:1200px;
+    z-index:200;
+  
+}
+.loadingInner
+{
+    margin: 200px auto 0px auto;
+    
+   
+   
+}
+#ds-btnRulesNext
+{
+    display:none;
+}
+.badgeDiv
+{
+    float:left;
+    height:240px;
+    width:240px;
+    border-style:solid;
+    margin-right:10px;
+    margin-bottom:10px;
+    border-color:#D9D187;
+    border-width:1px;
+    background-repeat:no-repeat;
+    background-position:center center;
+    border-radius:20px;
+    background-color:#D9D187;
+}
+.upperBadgeLockedDiv
+{
+     width:230px;
+    height:50px;
+    font-size:30px;
+    color:White;
+    padding-top:5px;
+    padding-left:10px;
+    font-family:Impact;
+    background-color:#DE0A0A;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align:center;
+   
+}
+.upperBadgeDiv
+{
+    font-size:30px;
+   padding-top:15px;
+    width:230px;
+    height:40px;
+    font-size:20px;
+    color:White;
+    font-weight:bold;
+    padding-left:10px;
+     
+    background-color:#4A5A40;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align:center;
+}
+.lowerBadgeDiv
+{
+    text-align:right;
+    font-size:40px;
+    position:absolute;
+    bottom:0;
+     width:230px;
+     font-family:Impact;
+     color:Black;
+}
+#spnDrillName1,#spnBadgeName
+{
+    font-weight:bold;
+}
+.dDiv
+{
+    height:240px;
+    
+    position:relative;
+}
+#badgeContainer
+{
+   
+    left:0;
+   position:absolute;
+   top:130px;
+ 
+   height:500px;
+   width:100%;
+   text-align:right;
+   padding-bottom:500px;
+   margin-left:10px;
+    overflow:scroll;
+    z-index:0;
+}
+#drillImage
+{
+    background-repeat:no-repeat;
+    background-position:center center;
+    text-align:center;
+    width:100%;
+    min-height:315px;
+   
+}
+.drillDetailsDivStyle
+{
+    color:#1D2D21;
+    font-family:Verdana;
+    padding-left:25px;
+}
+.details
+{
+    font-size:30px;
+}

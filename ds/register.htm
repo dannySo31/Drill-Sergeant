@@ -1,0 +1,64 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<div id="divRegister" data-bb-type="screen" data-bb-effect="fade">
+	<script id="actionBarJS" src="js/actionBar.js"></script>
+ 
+    <div data-bb-type="round-panel" style="background-color: #4A5A40; color: #ffffff;margin-top:125px;
+        height: 250px; padding-left: 20px">
+        <div class="regPane1">
+            <img src="img/ds-icon.png" alt="ds" />
+        </div>
+        <div class="regPane2">
+            <p>
+                I'm your personal Drill Sergeant. Tell me something about yourself. 
+            </p>
+        </div>
+    </div>
+    <div data-bb-type="round-panel" style="background-color: #4A5A40; color: #ffffff;">
+         <div data-bb-type="label-control-container">
+             <div data-bb-type="row">
+                <div data-bb-type="label">Name:</div>
+                <input id="txtRegName" type="text" placeholder="Enter your name here" />
+             
+             </div>
+
+             <div id="BBMdiv" data-bb-type="round-panel" style="background-color: #4A5A40; color: #ffffff;">
+                <table>
+			        <tr>
+				        <td  style="padding-top:7px;">Use BBM Profile Name:</td>
+				        <td><input id="checkBBM" type="checkbox"  onchange="GetBBMProfile()"/></td>
+			        </tr>
+                  </table>
+             </div>
+            
+              <span id="spnRegName" class="errorTxt"></span>
+            <div data-bb-type="row">
+                <div data-bb-type="label">E-mail:</div>
+                <input type="text" id="txtRegFB"  placeholder="Enter your E-mail address here" />
+                 <span id="spnRegFB" class="errorTxt"></span>
+            </div>
+         <div data-bb-type="row">
+                <div data-bb-type="label">About Me:</div>
+                  <textarea  id="txtRegDesc" rows="10" cols="50" style="width:100%; font-size:30px; font-family:Verdana" placeholder="Write something about yourself here"></textarea>
+                  <span id="spnRegDesc" class="errorTxt"></span>
+         </div>
+		
+         </div>
+         
+          <select id="gender" data-bb-label="Gender" onChange="doSomething();">
+                    <option value="1">Male</option>
+					<option value="2">Female</option>
+                 </select>
+       
+        
+    </div>
+   
+     
+    <div data-bb-type="action-bar">
+        
+         <div id= "ds-btnCreateUser" data-bb-type="action" data-bb-style="tab" data-bb-img="img/menu/save.png" >Save</div>
+		    
+    </div>
+	
+</div>
+<div class="dsHeader">Introduce Yourself</div>

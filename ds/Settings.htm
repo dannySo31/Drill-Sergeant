@@ -1,0 +1,60 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+
+<div id="divSettings" data-bb-type="screen" data-bb-effect="fade">
+    <div data-bb-type="title" data-bb-caption="Toggle Buttons" data-bb-back-caption="Back" ></div>
+    <script id="actionBarJS" src="js/actionBar.js" type="text/javascript"></script>
+  
+   <div id="wLoading2" class="loading">
+     <div class="loadingInner" id="actind2" data-bb-type="activity-indicator" data-bb-size="large"></div> 
+     </div>
+       
+     
+    <div data-bb-type="round-panel" id="setList2">
+        <div data-bb-type="label-control-container">
+            <div data-bb-type="row">
+                <div data-bb-type="label">Name:</div>
+                 <input type="text" id="txtSetName" placeholder="Enter your name here"/>
+            </div>
+            <div data-bb-type="row">
+                <div data-bb-type="label">E-mail:</div>
+                 <input type="text" id="txtSetEmail" placeholder="Enter your e-mail address here." />
+            </div>
+          
+          
+            
+         <div data-bb-type="row">
+                <div data-bb-type="label">About Me:</div>
+               <textarea id="txtSetDesc" rows="10" cols="50" style="width:100%; font-size:30px; font-family:Verdana"></textarea>
+             </div>
+             
+               </div>
+                
+                 <select id="gender" data-bb-label="Gender" onChange="doSomething();">
+                    <option value="1">Male</option>
+					<option value="2">Female</option>
+                 </select>
+               
+                <div id= "Div1" onclick="setChange(this);" data-bb-type="button" data-bb-style="stretch">Save</div>
+        </div>
+
+        
+      
+       <div data-bb-type="round-panel" id="setList3">
+              <div id= "btnDelete" data-bb-type="button" data-bb-style="stretch">Reset Everything!</div>
+        </div>
+        
+        <div data-bb-type="action-bar">
+        <div id="btnTrainingRoom" data-bb-type="action"  data-bb-style="tab" data-bb-overflow="false" data-bb-img="img/menu/training.png">Training</div>
+        
+        <div id="btnTrainingMyProfile" data-bb-type="action" data-bb-style="tab" data-bb-overflow="false" data-bb-img="img/menu/profile.png">My Profile</div>
+        <div id="btnRules" data-bb-type="action" data-bb-style="tab" data-bb-overflow="false" data-bb-img="img/menu/rules.png">Rules</div>
+         <div id="btnTrainingSettings" data-bb-type="action" data-bb-selected="true" data-bb-style="tab" data-bb-img="img/menu/settings.png">Settings</div>
+		<!--<div id="btnTrainingMyMilestones"data-bb-type="action" data-bb-style="button" data-bb-overflow="false" data-bb-img="images/actionBar/cog_dark_theme.png">My Milestones</div>-->
+        <div id="btnTrainingHistory" data-bb-type="action" data-bb-style="tab" data-bb-overflow="false" data-bb-img="img/menu/history.png" >History</div>
+        <!--<div id="btnAbout" data-bb-type="action" data-bb-style="button" data-bb-overflow="false" data-bb-img="images/actionBar/cog_dark_theme.png">About</div>-->
+     </div>
+    </div>
+      <div class="dsHeader">Profile Settings</div>
+    
+     
+     
